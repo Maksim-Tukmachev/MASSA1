@@ -1,7 +1,7 @@
 public class BmiService {
-    public int calculate(double a, double b){
-        int result;
-        result=(int)(a/(b*b));
-        return result;
+    public int calculate(double kg, double cm) {
+        int calculateResult;
+        calculateResult = (int) (kg / (cm * cm));
+        return calculateResult;
     }
 }
